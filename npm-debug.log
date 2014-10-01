@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'init', '[-f' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose stack Error: write EPIPE
+4 verbose stack     at errnoException (net.js:904:11)
+4 verbose stack     at Object.afterWrite (net.js:720:19)
+5 verbose cwd /Users/thomaswilkinson/Work/Development/angular-movie-database
+6 error Darwin 13.1.0
+7 error argv "node" "/usr/local/bin/npm" "init" "[-f"
+8 error node v0.10.32
+9 error npm  v2.0.2
+10 error code EPIPE
+11 error errno EPIPE
+12 error syscall write
+13 error write EPIPE
+14 error If you need help, you may report this error at:
+14 error     <http://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]
