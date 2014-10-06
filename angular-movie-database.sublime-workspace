@@ -3,351 +3,36 @@
 	{
 		"selected_items":
 		[
-			[
-				"header",
-				"headerHeight"
-			],
-			[
-				"per",
-				"person1"
-			],
-			[
-				"sa",
-				"sayHello"
-			],
-			[
-				"pro",
-				"proto	Prototype"
-			],
-			[
-				"pers",
-				"person1"
-			],
-			[
-				"prop",
-				"Property"
-			],
-			[
-				"inher",
-				"Inheritance"
-			],
-			[
-				"meh",
-				"methods"
-			],
-			[
-				"get",
-				"getUrl"
-			],
-			[
-				"groupC",
-				"Groupcategory"
-			],
-			[
-				"da",
-				"data"
-			],
-			[
-				"tex",
-				"text-align"
-			],
-			[
-				"else",
-				"elseif	elseif …"
-			],
-			[
-				"he",
-				"helvetica-bold"
-			],
-			[
-				"in",
-				"inner"
-			],
-			[
-				"ma",
-				"margin"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"pr",
-				"printf"
-			],
-			[
-				"col",
-				"color"
-			],
-			[
-				"cou",
-				"counter"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
-				"im",
-				"important"
-			],
-			[
-				"pa",
-				"padding"
-			],
-			[
-				"i",
-				"italic"
-			],
-			[
-				"te",
-				"text-transform"
-			],
-			[
-				"e",
-				"endif"
-			],
-			[
-				"m",
-				"margin"
-			],
-			[
-				"paddi",
-				"padding-top"
-			],
-			[
-				"fin",
-				"finish"
-			],
-			[
-				"mouse",
-				"mouseover"
-			],
-			[
-				"ac",
-				"addClass"
-			],
-			[
-				"sh",
-				"showcase"
-			],
-			[
-				"show",
-				"showcase"
-			],
-			[
-				"filt",
-				"filterValue"
-			],
-			[
-				"th",
-				"thumbnail"
-			],
-			[
-				"load",
-				"loadingContent"
-			],
-			[
-				"grou",
-				"groupId"
-			],
-			[
-				"toggle",
-				"toggleAdmin"
-			],
-			[
-				"data-",
-				"data-group-id"
-			],
-			[
-				"us",
-				"username"
-			],
-			[
-				"ban",
-				"banBtn"
-			],
-			[
-				"mem",
-				"members"
-			],
-			[
-				"view",
-				"viewerCanBan"
-			],
-			[
-				"is",
-				"isSingle"
-			],
-			[
-				"delete",
-				"deletePost"
-			],
-			[
-				"data",
-				"data-player-id"
-			],
-			[
-				"data-gro",
-				"data-group-name"
-			],
-			[
-				"del",
-				"deletePost"
-			],
-			[
-				"vie",
-				"viewer_is_member"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"clas",
-				"className"
-			],
-			[
-				"con",
-				"console"
-			],
-			[
-				"gr",
-				"groupId"
-			],
-			[
-				"dis",
-				"disqus-container"
-			],
-			[
-				"post",
-				"post-management"
-			],
-			[
-				"pos",
-				"post-management"
-			],
-			[
-				"play",
-				"play-btn"
-			],
-			[
-				"pla",
-				"player"
-			],
-			[
-				"volume-",
-				"volume-bar"
-			],
-			[
-				"par",
-				"parentTitle"
-			],
-			[
-				"un",
-				"uniqueId"
-			],
-			[
-				"player",
-				"playerNumId"
-			],
-			[
-				"membe",
-				"memberType"
-			],
-			[
-				"dat",
-				"dataType"
-			],
-			[
-				"page",
-				"pageTotal"
-			],
-			[
-				"sho",
-				"Showreel"
-			],
-			[
-				"font-",
-				"font-family"
-			],
-			[
-				"add",
-				"AddCtrl"
-			],
-			[
-				"ro",
-				"routeProvider"
-			],
-			[
-				"thi",
-				"thisClass"
-			],
-			[
-				"this",
-				"thisId"
-			],
-			[
-				"ace",
-				"access-pop-up"
-			],
-			[
-				"action",
-				"action-item"
-			],
-			[
-				"fb",
-				"fb-btn"
-			],
-			[
-				"co",
-				"color"
-			],
-			[
-				"a",
-				"auto"
-			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1168,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 367.0,
 		"selected_items":
 		[
 			[
-				"pa",
-				"Package Control: Remove Package"
+				"in",
+				"Package Control: Install Package"
 			],
 			[
-				"f",
-				"Fetch: Package"
-			],
-			[
-				"",
-				"Fetch: Manage"
+				"Install Package ",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 476.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 146.0,
+		"history":
+		[
+			"Install Package SCSS",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -358,140 +43,28 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/js",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass/partials",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass/vendor",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/stylesheets"
+	],
 	"file_history":
 	[
-		"/Users/thomaswilkinson/Work/Development/OOP/index.html",
-		"/Users/thomaswilkinson/Work/Development/OOP/js/main.js",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/style.css",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/functions.js",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/tpl-landing.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/header.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/index.php",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass/main.scss",
 		"/Users/thomaswilkinson/Work/Development/angular-movie-database/index.html",
-		"/Users/thomaswilkinson/Work/Development/OOP/main.js",
-		"/Users/thomaswilkinson/Documents/P&P site",
-		"/Users/thomaswilkinson/Work/Development/Angular/index.html",
-		"/Users/thomaswilkinson/Work/Development/Angular/js/main.js",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/functions.php",
-		"/Applications/MAMP/htdocs/ulyvox/ulyvox/static/js/ulyvox.js",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/footer.php",
-		"/Users/thomaswilkinson/Downloads/download",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/front.pt",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/index.html",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/.htaccess",
-		"/Users/thomaswilkinson/Downloads/sitemanager (1).xml",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/_.htaccess",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/.htaccess 3",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/wp-config.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/.htaccess 2",
-		"/Users/thomaswilkinson/Desktop/.htaccess",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/wp-config 2.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/wp-config 3.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/tpl-landing.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/header.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/style.css",
-		"/Users/thomaswilkinson/Desktop/index.html",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/index 2.html",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/index 3.html",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/tpl-landing-page.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/footer.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/js/functions.js",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/index.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/header 2.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/tpl-service.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/content-single.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/single.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-config.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/functions.php",
-		"/Users/thomaswilkinson/Desktop/jquery.fitvids.min.js",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/inc/custom-header.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/js/customizer.js",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/js/navigation.js",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/js/jquery.fitvids.min.js",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/js/jquery-1.11.1.min.js",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/inc/customizer.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/js/skip-link-focus-fix.js",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/inc/extras.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/inc/template-tags.php",
-		"/Users/thomaswilkinson/Desktop/functions.js",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/archive.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/footer 2.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/404.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/search.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/sidebar.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/sidebar.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/tpl-services.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/page.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/tpl-blog.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/rtl.css",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/screenshot.png",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/archive.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/content-none.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/comments.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/page.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/single.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/tpl-showcase.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/content-page.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/content-single.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/content.php",
-		"/Users/thomaswilkinson/Downloads/wearecowboys 2/single.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/content-page.php",
-		"/Users/thomaswilkinson/Downloads/wearecowboys 2/footer.php",
-		"/Users/thomaswilkinson/Downloads/wearecowboys 2/content-single.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/tpl-showcase.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/tpl-landing-page.php",
-		"/Applications/MAMP/htdocs/wearecowboys/wp-content/themes/wearecowboys/tpl-about.php",
-		"/Users/thomaswilkinson/Desktop/tpl-landing-page.php",
-		"/Users/thomaswilkinson/Desktop/Thomas Wilkinson",
-		"/Users/thomaswilkinson/Downloads/webfontkit-20140628-083109/stylesheet.css",
-		"/Users/thomaswilkinson/Downloads/open-sans-fontfacekit/web fonts/opensans_bold_macroman/stylesheet.css",
-		"/Users/thomaswilkinson/Downloads/open-sans-fontfacekit/web fonts/opensans_bolditalic_macroman/stylesheet.css",
-		"/Users/thomaswilkinson/Downloads/open-sans-fontfacekit/web fonts/opensans_regular_macroman/stylesheet.css",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/tpl-thankyou.php",
-		"/Users/thomaswilkinson/Downloads/jquery-ui-1.11.0.custom/jquery-ui.min.js",
-		"/Users/thomaswilkinson/Downloads/jquery.easing.1.3.min.js",
-		"/Users/thomaswilkinson/Downloads/fastclick.min.js",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/untitled.html",
-		"/Users/thomaswilkinson/Desktop/test.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/test.php",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/custom-select-menu.jquery.min.js",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/font-awesome.min.css",
-		"/Users/thomaswilkinson/Desktop/.htpasswd",
-		"/private/var/folders/4w/g5f1_v2d3mqbmh0c_3fgxz8m0000gn/T/fz3temp-1/style 2.css",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/widget_sidebar copy.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/static/js/ulyvox.js",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user_groups.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/static/css/ulyvox.css",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/widget_topbar.pt",
-		"/Users/thomaswilkinson/Desktop/test.html",
-		"/Users/thomaswilkinson/Downloads/webfontkit-20140604-152435/stylesheet.css",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/view_grouppost.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user_view.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user_suggested.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user_post.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user_following.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user_followers.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user_edit.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/user_dashboard.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/post_view.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/login.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/all_groups.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/edit.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/group_edit.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/group_member_list.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/group_post.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/group_view.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/view.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/widget_footer.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/widget_mainmenu.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/widget_sidebar.pt",
-		"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/templates/widget_header.pt",
-		"/Users/thomaswilkinson/Downloads/noto-sans-fontfacekit/web fonts/notosans_regular_macroman/stylesheet.css"
+		"/Users/thomaswilkinson/Downloads/bootstrap-sass-3.2.0 2/assets/stylesheets/bootstrap.scss",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/css/partials/typography.scss",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/css/main.scss",
+		"/Users/thomaswilkinson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/thomaswilkinson/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -502,137 +75,10 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
-			"\">",
-			"catapultCookie",
-			"service-list",
-			"?category",
-			"groupPage",
-			"getGroupData()",
-			"login",
-			"getGroupData()",
-			"login",
-			"/auth/login",
-			"login",
-			"gewo",
-			"pr",
-			"profil",
-			"width: 300px;\n	margin: 20px auto;\n	display: block;",
-			"logo",
-			"/*",
-			"logo",
-			"header",
-			"head",
-			"capit",
-			"cap",
-			"emb",
-			"red",
-			"logo",
-			"cal",
-			"embed",
-			"em",
-			"emb",
-			"top",
-			"heade",
-			"jquer",
-			"h1",
-			"nav",
-			"inner",
-			"border: 2",
-			"border: ",
-			"theme",
-			"<?php echo $theme; ?>",
-			"prev",
-			"servic",
-			"cta-btn",
-			"cta-btn:h",
-			"border-r",
-			"custom-se",
-			"body",
-			"info-",
-			"service-c",
-			"custom",
-			"F7E700",
-			"phone",
-			"#53c8c7",
-			"#4CB0AF",
-			"#687d8b",
-			"cta",
-			"#53C8C7",
-			"#296463",
-			"dots",
-			"capta",
-			"capta\\",
-			"captc",
-			"capta",
-			"captu",
-			"capt",
-			"cap",
-			"main-co",
-			"inpu",
-			"heade",
-			"18px",
-			"80",
-			"50%",
-			"url",
-			"theme",
-			"logged-in-nav",
-			"ja",
-			"jav",
-			"key-c",
-			"left-",
-			"service-list",
-			"feature",
-			"thum",
-			"test",
-			");\n",
-			"content",
-			"fonts/",
-			"70\\",
-			"14px",
-			";\n",
-			"../fonts/",
-			"target",
-			"follow",
-			"top-",
-			"login",
-			"Hel",
-			"helv",
-			"*",
-			">\n",
-			"arrow-box",
-			"top",
-			"#side-my-top-groups",
-			"sideb",
-			"192.",
-			".loaded",
-			".flip",
-			"cellsByRow ",
-			"JSON",
-			"here",
-			"single",
-			"getSinglePostData",
-			"getJ",
-			"reques",
-			"ajaz",
-			"requ",
-			"scrol",
-			"$('.ajax-loading').html('<a href=\"javascript:requestjsonData();\">Load More</a>');",
-			"Load",
-			"load-m",
-			"load",
-			"center",
-			"blog",
-			"NotoSans",
-			"are you sure",
-			"build",
-			"mem",
-			"does",
-			"{\n",
-			"jsonPrint",
-			"fresh"
+			"white"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -640,68 +86,28 @@
 		"regex": false,
 		"replace_history":
 		[
-			"9ec3c4",
-			"#3C4E5A",
-			"#3F6251",
-			"#536571",
-			"#3C4E5A",
-			"../fonts/",
-			"fonts/",
-			"#showcase-container",
-			"//$('.ajax-loading').html('<a href=\"javascript:requestjsonData();\">Load More</a>');",
-			"buildUi"
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": false
+		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 1168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1151,
-								1151
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 123.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -726,9 +132,14 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "angular-movie-database.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -736,10 +147,6 @@
 		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"",
-				"/Users/thomaswilkinson/ulyvox/ulyvox/ulyvox/static/css/ulyvox.css"
-			]
 		],
 		"width": 0.0
 	},
@@ -751,10 +158,25 @@
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
-	"status_bar_visible": true
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

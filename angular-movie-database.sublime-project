@@ -2,7 +2,8 @@
 	"folders":
 	[
 		{
-			"path": "/Users/thomaswilkinson/Work/Development/angular-movie-database"
+			"follow_symlinks": true,
+			"path": "."
 		}
 	]
 }

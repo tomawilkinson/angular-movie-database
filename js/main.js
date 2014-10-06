@@ -8,8 +8,8 @@ angular.module('ui.bootstrap.demo', ['ui.bootstrap']);
 // Init controller
 angular.module('ui.bootstrap.demo').controller('TabsDemoCtrl', function ($scope) {
 	$scope.tabs = [
-		{ title:'Dynamic Title 1', content:'Dynamic content 1' },
-		{ title:'Dynamic Title 2', content:'Dynamic content 2', disabled: true }
+		{ title:'Search Page', content:'Search Page Content' },
+		{ title:'Favorites', content:'Favorites Content' }
 	];
 	$scope.alertMe = function() {
 		setTimeout(function() {
