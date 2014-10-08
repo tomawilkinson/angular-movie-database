@@ -3,10 +3,51 @@
 	{
 		"selected_items":
 		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"page",
+				"pageNumber"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 1255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "enquiries@dealwithmyimmigration.com \nC'2!xqO&w=\\>q+N",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix",
+				"name": "enquiries@dealwithmyimmigration.com"
+			}
+		},
+		{
+			"file": "/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app/Contents/MacOS/applet",
+			"settings":
+			{
+				"buffer_size": 98287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4539,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -47,24 +88,36 @@
 	[
 		"/Users/thomaswilkinson/Work/Development/angular-movie-database",
 		"/Users/thomaswilkinson/Work/Development/angular-movie-database/js",
-		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass",
-		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass/partials",
-		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass/vendor",
-		"/Users/thomaswilkinson/Work/Development/angular-movie-database/stylesheets"
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/stylesheets",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/stylesheets/vendor",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/stylesheets/vendor/bootstrap",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Email Setup.app",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Email Setup.app/Contents",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Email Setup.app/Contents/config",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app/Contents",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app/Contents/_CodeSignature",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app/Contents/config",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app/Contents/MacOS",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app/Contents/Resources",
+		"/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app/Contents/Resources/description.rtfd"
 	],
 	"file_history":
 	[
+		"/Users/thomaswilkinson/Downloads/mcd.breadcreative.com/sites/all/themes/mcdonalds/js/script3040.js",
+		"/Users/thomaswilkinson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/thomaswilkinson/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass/main.scss",
 		"/Users/thomaswilkinson/Work/Development/angular-movie-database/index.html",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass/vendor/bootstrap/_variables.scss",
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/sass/vendor/bootstrap/_bootstrap.scss",
 		"/Users/thomaswilkinson/Downloads/bootstrap-sass-3.2.0 2/assets/stylesheets/bootstrap.scss",
 		"/Users/thomaswilkinson/Work/Development/angular-movie-database/css/partials/typography.scss",
-		"/Users/thomaswilkinson/Work/Development/angular-movie-database/css/main.scss",
-		"/Users/thomaswilkinson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/thomaswilkinson/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/Users/thomaswilkinson/Work/Development/angular-movie-database/css/main.scss"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 92.0
 	},
 	"find_in_files":
 	{
@@ -78,6 +131,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"						<p>\n							<a href=\"#\" class=\"btn btn-primary\" role=\"button\">Button</a>\n							<a href=\"#\" class=\"btn btn-default\" role=\"button\">Button</a>\n						</p>",
+			"hald",
 			"white"
 		],
 		"highlight": true,
@@ -86,6 +141,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"						<p>\n							<button type=\"button\" class=\"btn btn-default btn-lg\">\n								<span class=\"glyphicon glyphicon-heart\"></span> Like\n							</button>\n						</p>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -96,8 +152,122 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1106,
+								1106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								37
+							]
+						],
+						"settings":
+						{
+							"auto_name": "enquiries@dealwithmyimmigration.com",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/thomaswilkinson/Downloads/contact@tom_wilkinson.com Secure Email Setup.app/Contents/MacOS/applet",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 98287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								850,
+								850
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -139,7 +309,7 @@
 	"project": "angular-movie-database.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 216.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -174,7 +344,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 213.0,
+	"side_bar_width": 407.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
