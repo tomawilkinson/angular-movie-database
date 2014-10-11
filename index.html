@@ -18,13 +18,37 @@
 	</head>
 	<body>
 
-	<div class="container-fluid">
+	<style>
+	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+		display: none !important;
+	}
+	</style>
 
-		<div class="row" data-ng-controller="MoviePrinter">
+	<div class="container-fluid" data-ng-controller="movieCtrl">
+
+		<div class="row">
+			<div class="col-md-12">
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input ng-model="searchValue" type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" ng-click="loadMovies(searchValue)" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="row" ng-cloak class="ng-cloak">
+
+		<h1>Results Total: {{resultsTotal}}</h1>
+		<h1>Page Total: {{pageTotal}}</h1>
+		<h1>Current Page: {{pageNumber}}</h1>
+
+			<div ng-show="loading" class="loading"><img src="img/ajax-loader.gif">LOADING...</div>
+
 			<div ng-repeat="movie in movies">
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
-						<img src="http://placehold.it/350x150" alt="alt">
+						<img ng-src="{{movie.posters.original}}" alt="alt">
 						<div class="caption">
 							<h3>{{movie.title}}</h3>
 							<p>
@@ -36,7 +60,14 @@
 					</div>
 				</div>
 			</div>
+
+			<div>
+				<pagination total-items="pageTotal" ng-model="currentPage" ng-change="pageChanged()" max-size="maxSize" data-boundary-links="true"></pagination>
+			</div>
+
 		</div>
+
+
 
 	<!--<div ng-controller="TabsDemoCtrl">
 			<tabset>

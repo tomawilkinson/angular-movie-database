@@ -1,75 +1,39 @@
-// $(function() {
-// 	//alert();
-// });
 
-// Declare dependency
-// angular.module('ui.bootstrap.demo', ['ui.bootstrap']);
 
-// // Init controller
-// angular.module('ui.bootstrap.demo').controller('TabsDemoCtrl', function ($scope) {
-// 	$scope.tabs = [
-// 		{ title:'Search Page', content:'Search Page Content' },
-// 		{ title:'Favorites', content:'Favorites Content' }
-// 	];
-// 	$scope.alertMe = function() {
-// 		setTimeout(function() {
-// 			alert('You\'ve selected the alert tab!');
-// 		});
-// 	};
-// });
+var app = angular.module('movieApp', ['ui.bootstrap']);
 
-angular.module('movieApp', ['ui.bootstrap']);
+app.controller('movieCtrl', function($scope, $http){
 
-var apiKey = 'uyha8h3zge33dghf8bpkjnyp';
-var searchTerm = encodeURIComponent('Toy Story');
-var pageLimit = 4;
-var pageNumber = 1;
-var url = 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey='+apiKey+'&q='+searchTerm+'&page_limit='+pageLimit+'&page='+pageNumber;
+	$scope.loadMovies = function(searchValue) {
 
-function MoviePrinter($scope) {
+		$scope.apiKey = 'uyha8h3zge33dghf8bpkjnyp';
+		$scope.searchTerm = encodeURIComponent(searchValue);
+		$scope.pageLimit = 3;
+		$scope.pageNumber = 1;
+		$scope.url = 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey='+$scope.apiKey+'&q='+$scope.searchTerm+'&page_limit='+$scope.pageLimit+'&page='+$scope.pageNumber;
 
-	$scope.movies = [{
-		"id": "770672122",
-		"title": "Toy Story 3",
-		"year": 2010
-	}, {
-		"id": "9414",
-		"title": "Toy Story 2",
-		"year": 1999
-	}, {
-		"id": "9559",
-		"title": "Toy Story",
-		"year": 1995
-	}, {
-		"id": "771365842",
-		"title": "Toy Story of Terror!",
-		"year": 2013
-	}];
+		$scope.maxSize = 8;
+		$scope.resultsTotal = 0;
+		$scope.pageTotal = 0;
 
-	// $.ajax({
-	// 	'async': false,
-	// 	url: url,
-	// 	dataType: "jsonp",
-	// 	success: function(queryList) {
-	// 		$scope.movies = queryList['movies'];
-	// 		console.log(JSON.stringify($scope.movies))
-	// 	}
-	// });
+		$scope.loading = true;
+		$scope.movies = [];
+		$http.get($scope.url).
+		success(function(data, status, headers, config) {
+			$scope.loading = false;
+			$scope.resultsTotal = data['total'];
+			$scope.movies = data['movies'];
+		}).error(function(data, status, headers, config) {
+			// log error
+		});
 
-	//console.log(getData());
-	// $scope.movies = queryList['movies'];
-	// console.log($scope.movies)
-	// var movies = queryList['movies'];
-	// console.log(movies)
-}
+		$scope.pageChanged = function() {
+			$scope.pageNumber = $scope.currentPage;
+		};
 
-var getData = function() {
-	// $.ajax({
-	// 	'async': false,
-	// 	url: url,
-	// 	dataType: "jsonp",
-	// 	success: function(queryList) {
-	// 		console.log(queryList)
-	// 	}
-	// });
-}
+		$scope.$watch('resultsTotal + pageNumber', function() {
+			$scope.pageTotal = ($scope.resultsTotal / $scope.pageLimit);
+		});
+	}
+
+});
