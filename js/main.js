@@ -1,39 +1,67 @@
 
 
-var app = angular.module('movieApp', ['ui.bootstrap']);
+var movieApp = angular.module('movieApp', ['ui.bootstrap']);
 
-app.controller('movieCtrl', function($scope, $http){
 
-	$scope.loadMovies = function(searchValue) {
+movieApp.factory('requestMovieData', function($http) {
 
-		$scope.apiKey = 'uyha8h3zge33dghf8bpkjnyp';
-		$scope.searchTerm = encodeURIComponent(searchValue);
-		$scope.pageLimit = 3;
-		$scope.pageNumber = 1;
-		$scope.url = 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey='+$scope.apiKey+'&q='+$scope.searchTerm+'&page_limit='+$scope.pageLimit+'&page='+$scope.pageNumber;
+	return {
+		getMovieData: function(pageLimit, pageNumber) {
 
-		$scope.maxSize = 8;
-		$scope.resultsTotal = 0;
-		$scope.pageTotal = 0;
+			var apiKey = 'uyha8h3zge33dghf8bpkjnyp';
+			var searchTerm = 'the';
+			var pageLimit = pageLimit;
+			var pageNumber = pageNumber;
+			var domain = 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=';
+			var params = apiKey+'&q='+searchTerm+'&page_limit='+pageLimit+'&page='+pageNumber;
+			var url = domain + params;
 
-		$scope.loading = true;
-		$scope.movies = [];
-		$http.get($scope.url).
-		success(function(data, status, headers, config) {
-			$scope.loading = false;
-			$scope.resultsTotal = data['total'];
-			$scope.movies = data['movies'];
-		}).error(function(data, status, headers, config) {
-			// log error
-		});
-
-		$scope.pageChanged = function() {
-			$scope.pageNumber = $scope.currentPage;
-		};
-
-		$scope.$watch('resultsTotal + pageNumber', function() {
-			$scope.pageTotal = ($scope.resultsTotal / $scope.pageLimit);
-		});
+			return $http.get(url).then(function(result) {
+				return result.data;
+			});
+		}
 	}
 
 });
+
+movieApp.controller('searchCtrl', function($scope, requestMovieData){
+
+	// $scope.pageLimit = 5;
+	// $scope.pageNumber = 1;
+
+	$scope.maxSize = 8;
+
+	$scope.pageNumber = 1;
+
+	$scope.resultsTotal = 100;
+	$scope.pageTotal = 100;
+
+	var getStuff = function() {
+
+		$scope.pageLimit = 3;
+
+		//console.log($scope.pageNumber)
+
+		requestMovieData.getMovieData($scope.pageLimit, $scope.pageNumber).then(function(movieData) {
+			$scope.movieData = movieData;
+			$scope.movies = $scope.movieData['movies'];
+			$scope.resultsTotal = $scope.movieData['total'];
+			//console.log($scope.movieData)
+		});
+	}
+
+	getStuff();
+
+	$scope.pageChanged = function() {
+		$scope.pageNumber = $scope.currentPage;
+		getStuff();
+	};
+
+	$scope.$watch('resultsTotal + pageNumber', function() {
+		$scope.pageTotal = ($scope.resultsTotal / $scope.pageLimit);
+		//console.log()
+	});
+
+});
+
+
