@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bootstrap 101 Template</title>
+		<title>Angular Movie App</title>
 
 		<link href="stylesheets/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
@@ -19,23 +19,46 @@
 	<body>
 
 	<style>
-	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-		display: none !important;
-	}
+		[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+			display: none !important;
+		}
 	</style>
 
 	<div class="container-fluid">
 
 		<div data-ng-controller="searchCtrl">
+
 			<div class="row">
 				<div class="col-md-12">
+					<h1>Search Value: {{searchValue}}</h1>
+					<h1>Results Total: {{resultsTotal}}</h1>
+					<h1>Page Total: {{pageTotal}}</h1>
+					<h1>Current Page: {{pageNumber}}</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input ng-model="searchValue" type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" ng-click="loadMovies()" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+
+			<div class="row ng-hide" ng-hide="loading">
+				<div class="col-md-12">
+
+					<div ng-show="loading" class="loading">
+						<img src="img/ajax-loader.gif">LOADING...
+					</div>
 
 					<div ng-repeat="movie in movies">
-						<div class="col-sm-6 col-md-4">
+						<div class="col-sm-6 col-md-2">
 							<div class="thumbnail">
 								<img ng-src="{{movie.posters.original}}" alt="alt">
 								<div class="caption">
-									<h3>{{movie.title}}</h3>
+									<p>{{movie.title}}</p>
 									<p>
 										<button type="button" class="btn btn-default btn-lg">
 											<span class="glyphicon glyphicon-heart"></span> Like
@@ -44,20 +67,20 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div><!-- movie in movies -->
 
 				</div>
 			</div>
 
-			<div class="row">
+			<div id="pagination" ng-hide="loading" class="row ng-hide">
 				<div>
-					<pagination total-items="pageTotal" ng-model="currentPage" ng-change="pageChanged()" max-size="maxSize" data-boundary-links="true"></pagination>
+					<pagination total-items="pageTotal" ng-model="pageNumber" ng-change="pageChanged()" max-size="maxSize" data-boundary-links="true"></pagination>
 				</div>
-			</div>
+			</div><!-- #Pagination -->
 
-		</div>
+		</div><!-- ng searchCtrl -->
 
-	</div>
+	</div><!-- .container-fluid -->
 
 	<script src="js/jquery-1.11.1.js"></script>
 	<script src="js/angular.js"></script>
